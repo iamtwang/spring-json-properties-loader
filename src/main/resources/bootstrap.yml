@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: spring-json-demo
+  profiles:
+    active: dev
+  cloud:
+    config:
+      failFast: true
+      server:
+        git:
+          force-pull: true
+          basedir: config-repo
+          uri: https://github.com/iamtwang/spring-json-properties-loader.git
+          searchPaths: config-repo
+          username:
+          password: 
+        bootstrap: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
