@@ -1,8 +1,18 @@
 spring:
   application:
     name: spring-json-demo
-  profiles:
-    active: dev
+---
+# loading config file from local
+spring:
+  profiles: native
+  cloud:
+    config:
+      server:
+        bootstrap: true
+---
+# loading config file from cloud (git)
+spring:
+  profiles: dev
   cloud:
     config:
       failFast: true

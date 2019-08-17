@@ -9,6 +9,9 @@ Why this:
   - Some of config files in our project are based on JSON.
   - When do 'refresh', properties and yaml files can be updated, but not JSON.
   - This will update the josn when do refresh.
+  
+### The Example
+  - Read config file from local or from git
 
 ### How to Use
 You can 
