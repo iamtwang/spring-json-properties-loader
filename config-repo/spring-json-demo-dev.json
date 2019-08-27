@@ -14,14 +14,14 @@
         },
         "maths": {
             "q1": {
-                "question": "5 + 7 = ?",
+                "question": "5 + 8 = ?",
                 "options": [
                     "10",
                     "11",
                     "12",
                     "13"
                 ],
-                "answer": "12"
+                "answer": "13"
             },
             "q2": {
                 "question": "12 - 10 = ?",
